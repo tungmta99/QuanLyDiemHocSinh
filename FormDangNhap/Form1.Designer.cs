@@ -28,80 +28,80 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.DangNhap = new System.Windows.Forms.Label();
+            this.textBoxTenDangNhap = new System.Windows.Forms.TextBox();
+            this.tenDangNhap = new System.Windows.Forms.Label();
+            this.PassWord = new System.Windows.Forms.Label();
+            this.textBoxPassWord = new System.Windows.Forms.TextBox();
+            this.btnDangNhap = new System.Windows.Forms.Button();
+            this.quenPassword = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // label1
+            // DangNhap
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(113, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 34);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "User Login";
+            this.DangNhap.AutoSize = true;
+            this.DangNhap.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DangNhap.Location = new System.Drawing.Point(113, 37);
+            this.DangNhap.Name = "DangNhap";
+            this.DangNhap.Size = new System.Drawing.Size(171, 34);
+            this.DangNhap.TabIndex = 0;
+            this.DangNhap.Text = "Dang Nhap";
             // 
-            // textBox1
+            // textBoxTenDangNhap
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 20);
-            this.textBox1.TabIndex = 1;
+            this.textBoxTenDangNhap.Location = new System.Drawing.Point(119, 101);
+            this.textBoxTenDangNhap.Name = "textBoxTenDangNhap";
+            this.textBoxTenDangNhap.Size = new System.Drawing.Size(212, 20);
+            this.textBoxTenDangNhap.TabIndex = 1;
             // 
-            // label2
+            // tenDangNhap
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "User  Name";
+            this.tenDangNhap.AutoSize = true;
+            this.tenDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tenDangNhap.Location = new System.Drawing.Point(12, 101);
+            this.tenDangNhap.Name = "tenDangNhap";
+            this.tenDangNhap.Size = new System.Drawing.Size(104, 16);
+            this.tenDangNhap.TabIndex = 2;
+            this.tenDangNhap.Text = "Ten Dang Nhap";
             // 
-            // label3
+            // PassWord
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 152);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "PassWord";
+            this.PassWord.AutoSize = true;
+            this.PassWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PassWord.Location = new System.Drawing.Point(22, 152);
+            this.PassWord.Name = "PassWord";
+            this.PassWord.Size = new System.Drawing.Size(72, 16);
+            this.PassWord.TabIndex = 3;
+            this.PassWord.Text = "PassWord";
             // 
-            // textBox2
+            // textBoxPassWord
             // 
-            this.textBox2.Location = new System.Drawing.Point(119, 152);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 20);
-            this.textBox2.TabIndex = 5;
+            this.textBoxPassWord.Location = new System.Drawing.Point(119, 152);
+            this.textBoxPassWord.Name = "textBoxPassWord";
+            this.textBoxPassWord.Size = new System.Drawing.Size(212, 20);
+            this.textBoxPassWord.TabIndex = 5;
             // 
-            // button1
+            // btnDangNhap
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(25, 232);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(306, 29);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Sign In";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangNhap.Location = new System.Drawing.Point(25, 232);
+            this.btnDangNhap.Name = "btnDangNhap";
+            this.btnDangNhap.Size = new System.Drawing.Size(306, 29);
+            this.btnDangNhap.TabIndex = 6;
+            this.btnDangNhap.Text = "Dang Nhap";
+            this.btnDangNhap.UseVisualStyleBackColor = true;
             // 
-            // linkLabel1
+            // quenPassword
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(47, 190);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(120, 16);
-            this.linkLabel1.TabIndex = 7;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Forgot Password ?";
+            this.quenPassword.AutoSize = true;
+            this.quenPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quenPassword.Location = new System.Drawing.Point(116, 190);
+            this.quenPassword.Name = "quenPassword";
+            this.quenPassword.Size = new System.Drawing.Size(113, 16);
+            this.quenPassword.TabIndex = 7;
+            this.quenPassword.TabStop = true;
+            this.quenPassword.Text = "Quen Password ?";
             // 
             // linkLabel2
             // 
@@ -109,10 +109,8 @@
             this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.Location = new System.Drawing.Point(276, 190);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(67, 16);
+            this.linkLabel2.Size = new System.Drawing.Size(0, 16);
             this.linkLabel2.TabIndex = 8;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "New User";
             // 
             // Form1
             // 
@@ -120,13 +118,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(362, 297);
             this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.quenPassword);
+            this.Controls.Add(this.btnDangNhap);
+            this.Controls.Add(this.textBoxPassWord);
+            this.Controls.Add(this.PassWord);
+            this.Controls.Add(this.tenDangNhap);
+            this.Controls.Add(this.textBoxTenDangNhap);
+            this.Controls.Add(this.DangNhap);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -136,13 +134,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label DangNhap;
+        private System.Windows.Forms.TextBox textBoxTenDangNhap;
+        private System.Windows.Forms.Label tenDangNhap;
+        private System.Windows.Forms.Label PassWord;
+        private System.Windows.Forms.TextBox textBoxPassWord;
+        private System.Windows.Forms.Button btnDangNhap;
+        private System.Windows.Forms.LinkLabel quenPassword;
         private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
