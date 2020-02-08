@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormDangNhap", "FormDangNhap\FormDangNhap.csproj", "{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerQuanLyDiemHocSinh", "ServerQuanLyDiemHocSinh\ServerQuanLyDiemHocSinh.csproj", "{295EF84D-3696-46ED-8B5A-0FA2B2AF653B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyDiem", "QuanLyDiem\QuanLyDiem.csproj", "{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{295EF84D-3696-46ED-8B5A-0FA2B2AF653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{295EF84D-3696-46ED-8B5A-0FA2B2AF653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295EF84D-3696-46ED-8B5A-0FA2B2AF653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295EF84D-3696-46ED-8B5A-0FA2B2AF653B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80ED52F1-CC9F-4C07-9F3A-AD806AA8E51E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

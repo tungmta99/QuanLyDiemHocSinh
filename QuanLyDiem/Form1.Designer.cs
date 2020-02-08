@@ -1,4 +1,4 @@
-﻿namespace FormDangNhap
+﻿namespace QuanLyDiem
 {
     partial class Form1
     {
@@ -44,9 +44,9 @@
             this.DangNhap.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DangNhap.Location = new System.Drawing.Point(113, 37);
             this.DangNhap.Name = "DangNhap";
-            this.DangNhap.Size = new System.Drawing.Size(171, 34);
+            this.DangNhap.Size = new System.Drawing.Size(168, 34);
             this.DangNhap.TabIndex = 0;
-            this.DangNhap.Text = "Dang Nhap";
+            this.DangNhap.Text = "Đăng nhập";
             // 
             // textBoxTenDangNhap
             // 
@@ -61,9 +61,9 @@
             this.tenDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenDangNhap.Location = new System.Drawing.Point(12, 101);
             this.tenDangNhap.Name = "tenDangNhap";
-            this.tenDangNhap.Size = new System.Drawing.Size(104, 16);
+            this.tenDangNhap.Size = new System.Drawing.Size(99, 16);
             this.tenDangNhap.TabIndex = 2;
-            this.tenDangNhap.Text = "Ten Dang Nhap";
+            this.tenDangNhap.Text = "Tên đăng nhập";
             // 
             // PassWord
             // 
@@ -71,9 +71,9 @@
             this.PassWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PassWord.Location = new System.Drawing.Point(22, 152);
             this.PassWord.Name = "PassWord";
-            this.PassWord.Size = new System.Drawing.Size(72, 16);
+            this.PassWord.Size = new System.Drawing.Size(62, 16);
             this.PassWord.TabIndex = 3;
-            this.PassWord.Text = "PassWord";
+            this.PassWord.Text = "Mật khẩu";
             // 
             // textBoxPassWord
             // 
@@ -89,7 +89,7 @@
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(306, 29);
             this.btnDangNhap.TabIndex = 6;
-            this.btnDangNhap.Text = "Dang Nhap";
+            this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
             // 
             // quenPassword
@@ -98,10 +98,10 @@
             this.quenPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quenPassword.Location = new System.Drawing.Point(116, 190);
             this.quenPassword.Name = "quenPassword";
-            this.quenPassword.Size = new System.Drawing.Size(113, 16);
+            this.quenPassword.Size = new System.Drawing.Size(107, 16);
             this.quenPassword.TabIndex = 7;
             this.quenPassword.TabStop = true;
-            this.quenPassword.Text = "Quen Password ?";
+            this.quenPassword.Text = "Quên mật khẩu ?";
             // 
             // linkLabel2
             // 
@@ -126,7 +126,7 @@
             this.Controls.Add(this.textBoxTenDangNhap);
             this.Controls.Add(this.DangNhap);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Quản lý điểm học sinh";
             this.ResumeLayout(false);
             this.PerformLayout();
 
