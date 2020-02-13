@@ -21,19 +21,10 @@ namespace ServerQuanLyDiemHocSinh
         {
             listener.Prefixes.Add(prefix);
         }
-        public async void ShowReq()
-        {
-            HttpListenerContext context = listener.GetContext();
-            var body = new StreamReader(context.Request.InputStream).ReadToEnd();
-            data = body;
-            Console.WriteLine(body);
-
-        }
-
+     
         public void Start()
         {
             listener.Start();
-            ShowReq();
             Respone();
         }
 
@@ -43,6 +34,9 @@ namespace ServerQuanLyDiemHocSinh
             {
                 HttpListenerContext context = listener.GetContext();
                 string msg = "Connected";
+                var body = new StreamReader(context.Request.InputStream).ReadToEnd();
+                data = body;
+                Console.WriteLine(body);
                 context.Response.ContentLength64 = Encoding.UTF8.GetByteCount(msg);
                 context.Response.StatusCode = (int)HttpStatusCode.OK;
                 using (Stream stream = context.Response.OutputStream)
@@ -52,6 +46,7 @@ namespace ServerQuanLyDiemHocSinh
                         sw.Write(msg);
                     }
                 }
+                Console.WriteLine(msg);
             }
         }
     }

@@ -36,13 +36,10 @@ namespace QuanLyDiem
                     ""password"":" + hPassword + @",
                  }";
 
-            client clt = new client();
-
+            Client clt = new Client();
             var task = clt.SendAsyncJson(url, json);
-            
             task.Wait();
-
-            
+            MessageBox.Show(task.Result);
         }
     }
 }
