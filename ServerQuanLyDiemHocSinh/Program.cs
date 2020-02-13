@@ -12,7 +12,7 @@ namespace ServerQuanLyDiemHocSinh
         static void Main(string[] args)
         {
             HttpServerClass http = new HttpServerClass();
-            Console.Write("Connected Success!");
+            Console.Write("Start server");
             http.AddPrefix("http://localhost:1300/quanlydiem/");
             http.Start();
         }

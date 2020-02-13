@@ -30,7 +30,7 @@ namespace QuanLyDiem
             username = textBoxTenDangNhap.Text;
             password = textBoxPassWord.Text;
             string hPassword = ComputeHash(password, new SHA256CryptoServiceProvider());
-            var url = "http://localhost:1300/quanlydiem/login";
+            var url = "http://localhost:1300/quanlydiem/login?";
             var json = @"
                 {" + @"""username"":" + username + @",
                     ""password"":" + hPassword + @",
